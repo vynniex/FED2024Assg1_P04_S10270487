@@ -33,6 +33,21 @@ nav {
     font-size: 30px;
 }
 
+nav a {
+    color: white;
+    transition: transform 0.3s, color 0.3s;
+}
+
+nav a:hover {
+    transform: scale(1.1);
+    color: grey;
+}
+
+nav a.active {
+    font-weight: bold;
+    color: grey;
+}
+
 h2 {
     background-color: black;
     margin: 0;
@@ -171,6 +186,7 @@ h4 {
     align-items: center;
     justify-content: center;
     flex-grow: 1;
+    padding-top: 1rem;
 }
 
 .button {
@@ -216,4 +232,16 @@ footer {
 .more-image {
     width: 48%;
     height: auto;
+}
+
+.p2 a {
+    color: blue;
+    text-decoration: underline;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+    transition: transform 0.3s ease;
+}
+
+.p2 a:hover {
+    transform: scale(1.05);
 }
