@@ -106,8 +106,7 @@ h3 {
 }
 
 .p2 a {
-    color: blue;
-    text-decoration: underline;
+    color: lightblue;
     margin-left: 0.3rem;
     margin-right: 0.3rem;
     transition: transform 0.3s ease;
